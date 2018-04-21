@@ -97,13 +97,13 @@ analytics:
 
 # Site Author
 author:
-name             : "Dmitry Maslennikov"
+  name             : "Dmitry Maslennikov"
   avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Simple solutions"
   location         : "Thailand/Phuket"
   email            : "maslennikovdm+blog@gmail.com"
   uri              : "https://rlz.github.io"
-    home             : # null (default), "absolute or relative url to link to author home"
+  home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
