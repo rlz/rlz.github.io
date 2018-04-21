@@ -5,6 +5,13 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -12,7 +19,7 @@ locale                   : "en-US"
 title                    : "Programmer blog"
 title_separator          : "-"
 name                     : "Dmitry Maslennikov"
-description              : "Second attempt to make blog"
+description              : "My blog"
 url                      : "https://rlz.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rlz/rlz.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -53,6 +60,12 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
 
 # SEO Related
 google_site_verification : "fUaWA6C2EFgPijH2lu8DWhYYgVtwD8eAfIHiUAt1PFU"
@@ -84,13 +97,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dmitry Maslennikov"
+name             : "Dmitry Maslennikov"
   avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Simple solutions"
   location         : "Thailand/Phuket"
   email            : "maslennikovdm+blog@gmail.com"
   uri              : "https://rlz.github.io"
-  home             : # null (default), "absolute or relative url to link to author home"
+    home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
