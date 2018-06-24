@@ -1,0 +1,46 @@
+--- 
+---
+
+img {
+    width: 100%;
+    margin-bottom: 30pt;
+}
+
+body {
+    margin: 0;
+}
+
+.body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    max-width: 500pt;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    // font-family: Tahoma, Geneva, sans-serif;
+    // text-transform: uppercase;
+    font-size: 30pt;
+    font-weight: normal;
+    margin: 10pt 0 10pt 0;
+}
+
+h2 {
+    font-size: 23pt;
+    font-weight: normal;
+    margin: 30pt 0 10pt 0;
+}
+
+h3 {
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 0;
+}
+
+.name, .contacts {
+    font-size: 14pt;
+}
+
