@@ -38,6 +38,19 @@ h3 {
 
 .name, .contacts {
     font-size: 14pt;
+    text-align: right;
+}
+
+.phone {
+    margin-top: 5pt;
+}
+
+.whatsapp {
+    margin-bottom: 5pt;
+}
+
+.phone, .whatsapp, .name {
+    font-size: 20pt;
 }
 
 li {
